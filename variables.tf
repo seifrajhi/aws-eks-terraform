@@ -9,13 +9,13 @@ variable public_subnet_cidr_blocks {
 }
 
 variable k8s_version {
-    default = "1.27"
+    default = "1.28"
 }
 
 variable k8s_cluster_name {
-    default = "eks-cluster"
+    default = "eks-pod-identity-demo"
 }
 
 variable aws_region {
-  default = "ap-south-1"
+  default = "eu-west-1"
 }
